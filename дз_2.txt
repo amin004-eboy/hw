@@ -1,0 +1,7 @@
+from month import *
+a =int(input ("Введи номер месяца, а я тебе скажу к какому сезону он относится"))
+if a in year :
+  b=year.items(a)
+  print(b)
+  
+  #Ахмедов Амин

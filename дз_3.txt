@@ -1,0 +1,12 @@
+a = int(input("Введи число от 0 до 1000 и если я выведу простое оно или нет"))
+def is_prime(n) :
+    x = True
+    for i in range(0 , 1000) :
+        while x :
+            if a % i == 0 :
+                print(True)
+            else :
+                print(False)
+print(is_prime(a))
+
+#Ахмедов Амин
